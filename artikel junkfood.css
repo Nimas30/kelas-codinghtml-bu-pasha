@@ -1,0 +1,177 @@
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: wheat;
+}
+h1:hover {
+color: red;
+}
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2:hover {
+    color: red;
+}
+.container {
+   max-width: 800px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.777);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+div {
+    width: 80%;
+    margin: 0 auto;
+    height:  100x;
+}
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 18px;
+    line-height: 1.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container utama */
+.container {
+    max-width: 850px;
+    margin: 40px auto;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efek hover pada container */
+.container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Style untuk heading */
+h1 {
+    text-align: center;
+    background-color: wheat;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 28px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+h1:hover {
+    color: red;
+    background-color: rgba(255, 204, 128, 0.8);
+}
+
+/* Style untuk subheading */
+h2 {
+    color: #030e17;
+    font-size: 22px;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+h2:hover {
+    color: red;
+}
+
+/* Style untuk gambar */
+.featured-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease-in-out;
+}
+
+/* Efek hover pada gambar */
+.featured-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Style untuk paragraf */
+p {
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+/* Daftar unordered (ul) */
+ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 8px;
+    list-style-type: square;
+}
+
+/* Daftar ordered (ol) */
+ol {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+ol li {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.closing {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    color: #d9534f;
+}
+
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .closing {
+        font-size: 16px;
+    }
+    .source {
+        text-align: center;
+        font-size: 14px;
+        color: #777;
+        margin-top: 20px;
+        border-top: 1px solid #ddd;
+        padding-top: 10px;
+    }
+    
+    .source a {
+        color: #09121a;
+        text-decoration: none;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+    
+    .source a:hover {
+        color: red;
+        text-decoration: underline;
+    }
+    img {
+        display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 15px; /* Membuat sudut lebih tumpul */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Opsional: Efek bayangan */
+    }
+
+
