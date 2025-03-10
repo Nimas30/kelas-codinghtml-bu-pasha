@@ -1,0 +1,25 @@
+
+.container{
+    margin-left: 0 auto;
+    width:50%;
+    height : 200px;
+    overflow: auto;
+}
+.static{  position: static; border: 2px seagreen solid; }
+.relative{ 
+     position: relative; 
+     border: 2px pink solid; 
+     left: 20px; /*jarak dari posisi paling kiri sebesar 20px */
+     bottom: 0; /*jarak dari posisi paling bawah sebesar 0px */
+}
+.absolute{ position: absolute;   border: 2px rgb(181, 181, 250) solid; left: 20px; bottom: 40px; }
+.fixed{ position: fixed; border: 2px rgb(250, 181, 181) solid; right: 0; bottom: 0; }
+sticky{ 
+    position: sticky;
+     border: 2px rgb(250, 250, 181) solid; 
+     top: 0;
+    left: 20px;
+background-color: burlywood;
+color: white;
+ }
+    
